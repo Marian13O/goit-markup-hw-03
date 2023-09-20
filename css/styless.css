@@ -108,9 +108,7 @@ ul {
 .contact-link:hover {
   color: var(--element-color);
 }
-.first-section {
-  height: 600px;
-}
+
 .global-header .main-navigation a:hover {
   color: var(--hover-color);
 }
@@ -123,6 +121,7 @@ ul {
 /* title */
 .first-section {
   font-weight: 900;
+  height: 600px;
   size: 44px;
   line-height: 428.571%;
   letter-spacing: 6%;
@@ -130,6 +129,7 @@ ul {
   color: #ffff;
   text-align: center;
   top: 80px;
+  background-image: url("./images/type-keyboard.jpg");
 }
 .title {
   display: inline;
@@ -278,6 +278,8 @@ ul {
   width: 145px;
   margin: 0px 40px 0px;
   margin-left: 255px;
+  padding-top: 15px;
+  
 }
 
 .info a {
