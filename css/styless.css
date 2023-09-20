@@ -278,7 +278,10 @@ ul {
   width: 145px;
   margin: 0px 40px 0px;
   margin-left: 255px;
-  padding-top: 15px;
+  padding-top: 35px;
+}
+.footer-logo a {
+  text-decoration: none;
 }
 
 .info a {
