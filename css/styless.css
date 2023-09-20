@@ -129,7 +129,7 @@ ul {
   color: #ffff;
   text-align: center;
   top: 80px;
-  background-image: url("./images/background.jpg");
+  background-image: url("../images/background.jpg");
 }
 .title {
   display: inline;
