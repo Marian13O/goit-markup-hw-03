@@ -252,7 +252,7 @@ ul {
 .our-team ul {
   display: flex;
   margin-left: 215px;
-  height: 368px;
+  height: 428px;
   top: 1635px;
   gap: 30px;
 }
@@ -277,6 +277,12 @@ ul {
   size: 16px;
   line-height: 133.929%;
   color: var(--text-color);
+  text-align: center;
+}
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
 }
 
