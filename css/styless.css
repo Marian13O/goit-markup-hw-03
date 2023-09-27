@@ -3,6 +3,7 @@
   --element-color: #212121;
   --text-color: #757575;
   --hover-color: #2196f3;
+  --bg-color: rgba(245, 244, 250, 1);
 }
 body {
   background-color: #ffff;
@@ -76,12 +77,9 @@ ul {
   width: 25%;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 }
-.contact-link {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .link-mail {
   color: var(--hover-color);
   font-family: Roboto;
@@ -90,9 +88,12 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
 }
+
 .link-tel {
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .current {
@@ -174,12 +175,14 @@ ul {
 
 .midle-main ul {
   display: flex;
+  gap: 30px;
 }
 .aboutus {
   display: flex;
   width: 1200px;
   justify-content: center;
   margin-left: 215px;
+  padding-top: 94px;
 }
 .middle-main {
   width: 100%;
@@ -190,6 +193,18 @@ ul {
   text-align: center;
   display: inline-block;
 }
+.icons {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 263px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--bg-color);
+}
+.icons img {
+  padding-top: 25px;
+}
 
 .description-title {
   font-weight: 700;
@@ -199,8 +214,9 @@ ul {
 }
 .description-text {
   font-weight: 400;
-  size: 14px;
-  line-height: 117.214%;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
   color: var(--text-color);
 }
 /* What we do */
