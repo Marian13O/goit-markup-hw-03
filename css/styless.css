@@ -90,10 +90,25 @@ ul {
   text-align: left;
   text-decoration: none;
 }
+.size-mail {
+  width: 16px;
+  height: 12px;
+}
 
 .link-tel {
   color: var(--text-color);
   text-decoration: none;
+}
+.size-phone {
+  width: 10px;
+  height: 16px;
+}
+.nav-contacts {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .current {
@@ -205,6 +220,11 @@ ul {
 .icons img {
   padding-top: 25px;
 }
+.svg-size {
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
+}
 
 .description-title {
   font-weight: 700;
@@ -285,6 +305,45 @@ ul {
   justify-content: space-evenly;
   text-align: center;
 }
+.eclipse {
+  width: 44px;
+  height: 44px;
+  top: -0px;
+  background-color: #2196f3;
+}
+.icon {
+  width: 44px;
+  height: 44px;
+}
+.icon-tw {
+  width: 20px;
+  height: 20px;
+}
+.clients {
+  width: 1200px;
+  margin-top: 94px;
+  margin-left: 215px;
+  margin-bottom: 94px;
+}
+.clients-logo ul {
+  display: flex;
+  justify-content: space-around;
+}
+.clients-logo li {
+  width: 170px;
+  height: 92px;
+  top: 2493px;
+  left: 615px;
+  border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+}
+.company-resize {
+  width: 160px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
 
 .footer {
   background-color: var(--section-color);
@@ -318,12 +377,23 @@ ul {
 .info span {
   color: #ffffff;
 }
+.info ul{
+  width: 499px;
+}
+
+.social {
+  margin-left: 716px;
+  margin-top: -176px;
+}
+
 
 /* PORTOFOLIO */
 .portofolio-size {
   width: 1200px;
+  height: 184;
   margin-left: 215px;
   margin-top: 94px;
+  margin-bottom: 94px;
 }
 .link-mail-portofolio {
   color: var(--text-color);
