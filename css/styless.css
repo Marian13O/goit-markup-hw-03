@@ -11,6 +11,7 @@ body {
   font-size: 14px;
   width: 100%;
 }
+
 ul {
   list-style-type: none;
 }
@@ -87,6 +88,7 @@ ul {
   text-align: left;
   text-decoration: none;
 }
+.size-mail:active,
 .size-mail {
   width: 16px;
   height: 12px;
@@ -191,10 +193,11 @@ ul {
 }
 .aboutus {
   display: flex;
-  width: 1200px;
   justify-content: center;
-  margin-left: 215px;
   padding-top: 94px;
+}
+.aboutus ul {
+  max-width: 1200px;
 }
 .middle-main {
   width: 100%;
@@ -253,11 +256,11 @@ ul {
 }
 
 .what-we-do-img ul {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   list-style: none;
   gap: 30px;
-  margin-left: 215px;
+  margin-left: auto;
 }
 /* Our Team */
 .footer-main {
@@ -270,12 +273,12 @@ ul {
   display: inline-block;
 }
 .our-team {
-  width: 1200px;
   display: flex;
+  justify-content: center;
 }
 .our-team ul {
   display: flex;
-  margin-left: 215px;
+
   height: 428px;
   top: 1635px;
   gap: 30px;
@@ -324,14 +327,13 @@ ul {
   height: 20px;
 }
 .clients {
-  width: 1200px;
   margin-top: 94px;
-  margin-left: 215px;
   margin-bottom: 94px;
 }
 .clients-logo ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 .clients-logo li {
   width: 170px;
@@ -429,11 +431,10 @@ ul {
 
 /* PORTOFOLIO */
 .portofolio-size {
-  width: 1200px;
-  height: 184;
-  margin-left: 215px;
   margin-top: 94px;
   margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .link-mail-portofolio {
   color: var(--text-color);
@@ -455,6 +456,8 @@ ul {
   align-items: center;
   margin: 0px 0px 56px 215px;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-buttons {
@@ -498,9 +501,13 @@ ul {
 }
 .product-store ul {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin: 0px 0px 94px 0px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product-store ul :hover {
