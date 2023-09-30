@@ -508,6 +508,7 @@ ul {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .product-store ul :hover {
