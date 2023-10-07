@@ -354,30 +354,26 @@ ul {
 .clients-logo li {
   width: 170px;
   height: 92px;
-  top: 2493px;
-  left: 615px;
   border-radius: 4px;
   border: 1px solid rgba(175, 177, 184, 1);
 }
-.border {
-  width: 170px;
-  height: 92px;
-  top: 2493px;
-  left: 615px;
-  border-radius: 4px;
-  border: 1px solid rgba(175, 177, 184, 1);
+.company-resize:hover {
+  fill: var(--hover-color);
 }
-.border :hover {
-  border: 1px solid;
+.clients-logo li:hover {
   border-color: var(--hover-color);
+  fill: var(--hover-color);
 }
 
+
 .company-resize {
-  width: 160px;
-  height: 60px;
+  width: 170px;
+  height: 62px;
   justify-content: center;
   align-items: center;
+
   margin-top: 16px;
+  fill: #afb1b8;
 }
 
 .footer {
