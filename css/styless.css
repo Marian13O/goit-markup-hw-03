@@ -611,3 +611,24 @@ ul {
     opacity: 1;
   }
 }
+.hidden-overlay {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+.inside-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--hover-color);
+  transform: translatey(133%);
+  transition: transform 250ms ease-in-out;
+}
+.hidden-overlay:hover .inside-content {
+  transform: translateY(0);
+}
