@@ -112,6 +112,9 @@ ul {
 
 .current {
   color: var(--hover-color);
+  border-bottom: 4px solid var(--hover-color);
+  padding-bottom: 25px;
+  border-radius: 2px;
 }
 .global-header-nav a:active,
 .global-header-nav a:hover,
