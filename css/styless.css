@@ -365,7 +365,6 @@ ul {
   fill: var(--hover-color);
 }
 
-
 .company-resize {
   width: 170px;
   height: 62px;
@@ -544,4 +543,29 @@ ul {
 .project-item {
   border-bottom: 1px solid #eeeeee;
   padding: 0px 25px;
+}
+/* BUTTON MODAL */
+.modal {
+  position: fixed;
+  width: 528px;
+  height: 581px;
+  top: 221px;
+  left: 536px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.close-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000000;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.is-hidden {
+  visibility: hidden;
 }
