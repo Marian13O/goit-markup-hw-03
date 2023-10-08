@@ -364,7 +364,8 @@ ul {
   height: 44px;
   background-color: transparent;
   border-radius: 50%;
-  padding-top: 12px;
+  padding: 10px;
+  fill: #afb1b8;
   transition: background-color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
 .bg-color:hover {
@@ -373,6 +374,7 @@ ul {
   background-color: var(--hover-color);
   border-radius: 50%;
   padding-top: 12px;
+  fill: white;
 }
 
 .clients {
@@ -581,8 +583,8 @@ ul {
   position: fixed;
   width: 528px;
   height: 581px;
-  top: 221px;
-  left: 536px;
+  top: 20%;
+  left: 35%;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
