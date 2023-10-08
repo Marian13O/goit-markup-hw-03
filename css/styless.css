@@ -114,6 +114,8 @@ ul {
   justify-content: center;
   text-align: center;
   align-items: center;
+  color: var(--text-color);
+  fill: var(--text-color);
 }
 .nav-contacts :hover {
   color: var(--hover-color);
