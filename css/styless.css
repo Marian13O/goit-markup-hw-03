@@ -55,6 +55,10 @@ ul {
   justify-content: space-between;
   padding: 20px;
 }
+.main-navigation {
+  height: 80px;
+  margin-bottom: 29px;
+}
 
 .main-navigation a {
   text-decoration: none;
@@ -68,6 +72,7 @@ ul {
   line-height: 16.41px;
   display: flex;
   width: 405px;
+  height: 80px;
   list-style-type: none;
   justify-content: space-between;
 }
@@ -102,6 +107,7 @@ ul {
 .size-phone {
   width: 10px;
   height: 16px;
+  fill:  #757575;
 }
 .nav-contacts {
   display: flex;
@@ -110,9 +116,13 @@ ul {
   text-align: center;
   align-items: center;
 }
+.nav-contacts :hover {
+  color: var(--hover-color);
+  transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
+  fill: var(--hover-color);
+}
 .main-navigation li {
-  padding-top: 32px;
-  height: 80px;
+  padding-top: 30px;
 }
 .current {
   color: var(--hover-color);
@@ -628,6 +638,7 @@ ul {
   background-color: var(--hover-color);
   transform: translatey(133%);
   transition: transform 250ms ease-in-out;
+  opacity: 80%;
 }
 .hidden-overlay:hover .inside-content {
   transform: translateY(0);
