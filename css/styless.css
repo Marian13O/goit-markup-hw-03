@@ -85,7 +85,6 @@ ul {
 }
 
 .link-mail {
-  color: var(--hover-color);
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
@@ -99,11 +98,6 @@ ul {
   width: 16px;
   height: 12px;
 }
-
-.link-tel {
-  color: var(--text-color);
-  text-decoration: none;
-}
 .size-phone {
   width: 10px;
   height: 16px;
@@ -114,10 +108,11 @@ ul {
   justify-content: center;
   text-align: center;
   align-items: center;
-  color: var(--text-color);
   fill: var(--text-color);
+  color: var(--text-color);
+  text-decoration: none;
 }
-.nav-contacts :hover {
+.nav-contacts:hover {
   color: var(--hover-color);
   transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
   fill: var(--hover-color);
@@ -497,9 +492,6 @@ ul {
   margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
-}
-.link-mail-portofolio {
-  color: var(--text-color);
 }
 .filter-button ul {
   display: flex;
