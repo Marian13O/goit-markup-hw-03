@@ -589,17 +589,7 @@ ul {
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
-.close-btn {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 1);
-  color: #000000;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
+
 .is-hidden {
   visibility: hidden;
 }
@@ -637,4 +627,108 @@ ul {
 }
 .hidden-overlay:hover .inside-content {
   transform: translateY(0);
+}
+/* Styling Modal */
+.close-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: var(--hover-color);
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 40px;
+  gap: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.input-container input,
+textarea {
+  border: 1px solid rgba(117, 117, 117, 1);
+  border-radius: 4px;
+  height: 40px;
+  padding: 11px 12px 11px 42px;
+  outline: none;
+  transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
+}
+textarea:focus {
+  border: 1px solid var(--hover-color);
+}
+input:focus {
+  border: 1px solid var(--hover-color);
+}
+input:focus + svg {
+  fill: var(--hover-color);
+}
+label {
+  font-family: "roboto" sans-serif;
+  font-size: 12px;
+}
+.input-container svg {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 12px;
+}
+textarea {
+  height: 120px;
+}
+.tacbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tacbox label {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 7px;
+}
+.tacbox input {
+  visibility: hidden;
+}
+.tacbox :hover,
+input {
+  visibility: visible;
+}
+.send-btn {
+  display: flex;
+  justify-content: center;
+}
+.send-btnn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  size: 16px;
+  color: #ffffff;
+  background-color: var(--hover-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.send-btnn:hover {
+  background-color: rgba(24, 140, 232, 1);
 }

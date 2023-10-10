@@ -421,6 +421,54 @@
     <div class="modal is-hidden" data-modal>
       <div class="modal-content">
         <button class="close-btn" data-modal-close>&times;</button>
+        <h2>Leave your information and we'll call you back</h2>
+        <div class="form-section">
+          <label for="name">Name</label>
+          <div class="input-container">
+            <input type="text" name="Name" id="name" />
+            <svg>
+              <use href="./symbol-defs.svg#icon-person"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="form-section">
+          <label for="phone">Telephone</label>
+          <div class="input-container">
+            <input type="tel" id="phone" name="phone" />
+            <svg>
+              <use href="./symbol-defs.svg#icon-modal-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="form-section">
+          <label for="email">E-mail</label>
+          <div class="input-container">
+            <input type="email" name="email" id="email" />
+            <svg>
+              <use href="./symbol-defs.svg#icon-mail"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="input-container">
+          <label for="comments">Comments</label>
+          <textarea
+            placeholder="Enter the text"
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <div class="tacbox">
+          <input id="checkbox" name="checkbox" type="checkbox" />
+          <label for="checkbox">
+            I agree with the letter and accept the
+            <a href="#">Terms and Conditions</a>.</label
+          >
+        </div>
+        <div class="send-btn">
+          <input class="send-btnn" type="submit" value="Send" />
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
