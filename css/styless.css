@@ -487,6 +487,100 @@ ul {
   padding-top: 12px;
   padding-left: 12px;
 }
+.btn-submit:hover {
+  background-color: #188ce8;
+  color: #fff;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.title-form {
+  width: 448px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-section3 .subscribe-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 15px;
+  padding-left: 93px;
+}
+
+.footer-section3 input {
+  background-color: rgba(47, 48, 58, 1);
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-section3 .input-email-footer {
+  border-color: rgba(255, 255, 255, 0.6);
+  padding-left: 93px;
+}
+
+.footer-section3 ::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-container .footer-section3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 85px;
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.subscribe-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: rgba(33, 150, 243, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-section4 .subscribe-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-subscribe {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--hover-color);
+  color: #fff;
+  border: none;
+  padding-left: 43px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+.footer-section4 {
+  padding-top: 121px;
+  padding-left: 10px;
+}
 
 /* PORTOFOLIO */
 .portofolio-size {
@@ -702,12 +796,8 @@ textarea {
   text-align: left;
   margin-left: 7px;
 }
-.tacbox input {
-  visibility: hidden;
-}
-.tacbox :hover,
-input {
-  visibility: visible;
+
+.form-section {
 }
 .send-btn {
   display: flex;
