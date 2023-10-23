@@ -212,7 +212,7 @@
                 />
                 <source
                   media="(min-width:480px)"
-                  srcset="./images/product-designer-m.jpgimages/"
+                  srcset="./images/product-designer-m.jpg"
                   width="450"
                 />
                 <img
@@ -248,13 +248,32 @@
                 </div>
               </div>
             </li>
+            <li></li>
             <li>
-              <img
-                src="./images/frontend-developer.jpg"
-                width="270"
-                height="260px"
-                alt="frontend-developer"
-              />
+              <picture>
+                <source
+                  media="(min-width:1158px)"
+                  srcset="./images/frontend-developer.jpg"
+                  width="270"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./images/frontend-developer-t.jpg"
+                  width="354"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./images/frontend-developer-m.jpg"
+                  width="450"
+                />
+                <img
+                  src="./images/frontend-developer.jpg"
+                  width="270"
+                  height="260px"
+                  alt="frontend-developer"
+                />
+              </picture>
+
               <h3 class="team-member-name">Kylie Evans</h3>
               <p class="team-job">Frontend Developer</p>
               <div class="social-media-icons">
@@ -281,12 +300,30 @@
               </div>
             </li>
             <li>
-              <img
-                src="./images/marketing.jpg"
-                width="270"
-                height="260px"
-                alt="marketing"
-              />
+              <picture>
+                <source
+                  media="(min-width:1158px)"
+                  srcset="./images/marketing.jpg"
+                  width="270"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./images/marketing-t.jpg"
+                  width="354"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./images/marketing-m.jpg"
+                  width="450"
+                />
+                <img
+                  src="./images/marketing.jpg"
+                  width="270"
+                  height="260px"
+                  alt="marketing"
+                />
+              </picture>
+
               <h3 class="team-member-name">Ryan Harris</h3>
               <p class="team-job">Marketing</p>
               <div class="social-media-icons">
@@ -313,12 +350,30 @@
               </div>
             </li>
             <li>
-              <img
-                src="./images/ul-designer.jpg"
-                width="270"
-                height="260px"
-                alt="ul-designer"
-              />
+              <picture>
+                <source
+                  media="(min-width:1158px)"
+                  srcset="./images/ul-designer.jpg"
+                  width="270"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./images/ul-designer-t.jpg"
+                  width="354"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./images/ul-designer-m.jpg"
+                  width="450"
+                />
+                <img
+                  src="./images/ul-designer.jpg"
+                  width="270px"
+                  height="260px"
+                  alt="ul-designer"
+                />
+              </picture>
+
               <h3 class="team-member-name">Tyler Moore</h3>
               <p class="team-job">UI Designer</p>
               <div class="social-media-icons">
@@ -389,9 +444,94 @@
       </section>
     </main>
     <!-- Contacts -->
-    <footer class="footer">
-      <div class="test">
-        <div class="footer-logo">
+    <footer>
+      <div class="footer">
+        <div>
+          <div class="footer-logo">
+            <a
+              href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=74568-301&mode=design&t=UmhJ8aawbPehguPL-0"
+              target="_blank"
+            >
+              <span class="logo-first">Web</span
+              ><span class="logo-second-down">Studio</span></a
+            >
+          </div>
+          <div class="info">
+            <address>
+              <ul>
+                <li>
+                  <a href="695 Park Ave, NY 10065, USA"
+                    ><span>695 Park Ave, NY 10065, USA</span></a
+                  >
+                </li>
+
+                <li>
+                  <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+
+                <li><a href="tel:+1-212-772-4150">+1-212-772-4150</a></li>
+              </ul>
+            </address>
+          </div>
+        </div>
+
+        <div class="social">
+          <h2>FIND US ON</h2>
+          <ul>
+            <li>
+              <div class="bg-footer-icon">
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-instagram-3"></use>
+                </svg>
+              </div>
+            </li>
+
+            <li>
+              <div class="bg-footer-icon">
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-twitter-2"></use>
+                </svg>
+              </div>
+            </li>
+
+            <div class="bg-footer-icon">
+              <li>
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-facebook2"></use>
+                </svg>
+              </li>
+            </div>
+            <li>
+              <div class="bg-footer-icon">
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section3">
+          <legend class="subscribe-text">Subscribe to the newsletter</legend>
+          <label class="input-email-footer" for=" footer-email">
+            <input
+              type="email"
+              name="email"
+              id="footer-email"
+              placeholder="E-mail"
+          /></label>
+        </div>
+        <div class="footer-section4">
+          <div class="subscribe-button">
+            <input class="btn-subscribe" type="submit" value="Subscribe" />
+            <svg class="subscribe-icon">
+              <use href="./symbol-defs.svg#icon-icon-send"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- FOR MOBILE -->
+      <div class="footer-mobile">
+        <div class="footer-logo-mobile">
           <a
             href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=74568-301&mode=design&t=UmhJ8aawbPehguPL-0"
             target="_blank"
@@ -399,8 +539,7 @@
             <span class="logo-first">Web</span
             ><span class="logo-second-down">Studio</span></a
           >
-        </div>
-        <div class="info">
+
           <address>
             <ul>
               <li>
@@ -417,59 +556,59 @@
             </ul>
           </address>
         </div>
-      </div>
 
-      <div class="social">
-        <h2>FIND US ON</h2>
-        <ul>
-          <li>
-            <div class="bg-footer-icon">
-              <svg class="icon-tw">
-                <use href="./symbol-defs.svg#icon-instagram-3"></use>
-              </svg>
-            </div>
-          </li>
-
-          <li>
-            <div class="bg-footer-icon">
-              <svg class="icon-tw">
-                <use href="./symbol-defs.svg#icon-twitter-2"></use>
-              </svg>
-            </div>
-          </li>
-
-          <div class="bg-footer-icon">
+        <div class="social-mobile">
+          <h2>FIND US ON</h2>
+          <ul>
             <li>
-              <svg class="icon-tw">
-                <use href="./symbol-defs.svg#icon-facebook2"></use>
-              </svg>
+              <div class="bg-footer-icon">
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-instagram-3"></use>
+                </svg>
+              </div>
             </li>
-          </div>
-          <li>
+
+            <li>
+              <div class="bg-footer-icon">
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-twitter-2"></use>
+                </svg>
+              </div>
+            </li>
+
             <div class="bg-footer-icon">
-              <svg class="icon-tw">
-                <use href="./symbol-defs.svg#icon-linkedin"></use>
-              </svg>
+              <li>
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-facebook2"></use>
+                </svg>
+              </li>
             </div>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-section3">
-        <legend class="subscribe-text">Subscribe to the newsletter</legend>
-        <label class="input-email-footer" for=" footer-email">
-          <input
-            type="email"
-            name="email"
-            id="footer-email"
-            placeholder="E-mail"
-        /></label>
-      </div>
-      <div class="footer-section4">
-        <div class="subscribe-button">
-          <input class="btn-subscribe" type="submit" value="Subscribe" />
-          <svg class="subscribe-icon">
-            <use href="./symbol-defs.svg#icon-icon-send"></use>
-          </svg>
+            <li>
+              <div class="bg-footer-icon">
+                <svg class="icon-tw">
+                  <use href="./symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section3">
+          <legend class="subscribe-text">Subscribe to the newsletter</legend>
+          <label class="input-email-footer" for=" footer-email">
+            <input
+              type="email"
+              name="email"
+              id="footer-email"
+              placeholder="E-mail"
+          /></label>
+        </div>
+        <div class="footer-section4">
+          <div class="subscribe-button">
+            <input class="btn-subscribe" type="submit" value="Subscribe" />
+            <svg class="subscribe-icon">
+              <use href="./symbol-defs.svg#icon-icon-send"></use>
+            </svg>
+          </div>
         </div>
       </div>
     </footer>

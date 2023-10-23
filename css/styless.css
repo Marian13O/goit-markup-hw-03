@@ -895,8 +895,8 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 60px auto;
     gap: 30px;
+    margin-right: 35px;
   }
   .aboutus li {
     width: auto;
@@ -908,7 +908,11 @@ textarea {
   .description-title {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .description-text {
+    display: flex;
   }
   .what-we-do {
     display: none;
@@ -916,7 +920,90 @@ textarea {
   .our-team ul {
     display: flex;
     flex-direction: column;
-    height: 1630px;
+    align-items: center;
+    height: 2630px;
+    padding: 0 15px;
+  }
+  .our-team li {
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  .clients-logo ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .clients-logo li {
+    width: 220px;
+  }
+  .company-resize {
+    margin-left: 20px;
+  }
+  .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-mobile {
+    background-color: var(--element-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+  }
+  .footer-logo-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .footer-logo-mobile a {
+    font-style: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 218%;
+    letter-spacing: 3%;
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer-logo-mobile address a {
+    text-decoration: none;
+    display: flex;
+    color: #757575;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-logo-mobile li span {
+    color: #ffffff;
+  }
+  .social-mobile ul {
+    width: 206;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+  }
+  .social-mobile h2 {
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
   }
 }
 /* TABLET */
@@ -930,5 +1017,28 @@ textarea {
   .js-menu-container {
     display: none;
   }
+  .footer-mobile {
+    display: none;
+  }
 }
-
+/* mobile max 480px */
+@media screen and (max-width: 480px) {
+  .aboutus ul,
+  .icons,
+  .description-text,
+  .our-team li,
+  .our-team img {
+    width: 90vw;
+    margin-right: 15px;
+  }
+  .clients-logo li {
+    width: 35vw;
+  }
+  .company-resize {
+    width: 100%;
+    padding-right: 20px;
+  }
+  .our-team ul {
+    height: 1800px;
+  }
+}
