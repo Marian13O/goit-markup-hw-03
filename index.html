@@ -19,6 +19,15 @@
     <link rel="stylesheet" href="css/styless.css" />
   </head>
   <body>
+    <div class="js-menu-container">
+      <nav>
+        <ul>
+          <li><a href="#">Studio</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
     <!-- Menu Bar -->
     <header class="global-header">
       <div class="logo">
@@ -61,6 +70,18 @@
             </a>
           </div>
         </div>
+      </div>
+      <div class="menu-button js-open-menu">
+        <svg>
+          <use href="./symbol-defs.svg#icon-menu"></use>
+        </svg>
+      </div>
+      <div class="js-menu-container">
+        <button class="menu-toggle js-close-menu">
+          <svg>
+            <use href="./symbol-defs.svg#icon-close-mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -490,5 +511,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
