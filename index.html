@@ -20,6 +20,11 @@
   </head>
   <body>
     <div class="js-menu-container">
+      <button class="menu-toggle js-close-menu">
+        <svg>
+          <use href="./symbol-defs.svg#icon-close-mobile-menu"></use>
+        </svg>
+      </button>
       <nav>
         <ul>
           <li><a href="#">Studio</a></li>
@@ -28,6 +33,7 @@
         </ul>
       </nav>
     </div>
+
     <!-- Menu Bar -->
     <header class="global-header">
       <div class="logo">
@@ -76,27 +82,20 @@
           <use href="./symbol-defs.svg#icon-menu"></use>
         </svg>
       </div>
-      <div class="js-menu-container">
-        <button class="menu-toggle js-close-menu">
-          <svg>
-            <use href="./symbol-defs.svg#icon-close-mobile-menu"></use>
-          </svg>
-        </button>
-      </div>
     </header>
     <main>
       <!-- TITLE -->
-      <section class="first-section">
-        <div class="title">
-          <h1>
-            EFFECTIVE SOLUTIONS FOR <br />
-            YOUR BUSINESS
-          </h1>
-        </div>
-        <div class="btnservice">
-          <button data-modal-open class="request-button" type="button">
-            Request our service
-          </button>
+      <section class="title-main">
+        <div class="title-main-ct">
+          <div>
+            <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+          </div>
+          <!--button-->
+          <div class="btn-request">
+            <button data-modal-open class="button-request" type="button">
+              Request our service
+            </button>
+          </div>
         </div>
       </section>
       <!-- Team  Qualities & What we do-->
@@ -200,12 +199,30 @@
         <div class="our-team">
           <ul>
             <li>
-              <img
-                src="./images/product-designer.jpg"
-                width="270"
-                height="260px"
-                alt="product-designer"
-              />
+              <picture>
+                <source
+                  media="(min-width:1158px)"
+                  srcset="./images/product-designer.jpg"
+                  width="270"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./images/product-designer-t.jpg"
+                  width="354"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./images/product-designer-m.jpgimages/"
+                  width="450"
+                />
+                <img
+                  src="./images/product-designer.jpg"
+                  width="270"
+                  height="260px"
+                  alt="product-designer"
+                />
+              </picture>
+
               <h3 class="team-member-name">Christopher Walker</h3>
               <p class="team-job">Product Designer</p>
               <div class="social-media-icons">
