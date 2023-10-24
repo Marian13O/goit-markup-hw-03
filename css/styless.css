@@ -871,14 +871,95 @@ textarea {
   }
   .is-open.js-menu-container {
     display: flex;
+    position: fixed;
     top: 0;
     right: 0;
     background-color: #fff;
     width: 100%;
     height: 100%;
     padding: 40px 40px;
+    z-index: 1;
   }
-
+  .js-close-menu {
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-items: flex-end;
+  }
+  .js-close-menu svg {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+  .menu-toggle {
+    padding: 0;
+  }
+  .menu-navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-navigation a {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    color: var(--element-color);
+  }
+  .menu-navigation a:hover {
+    color: var(--hover-color);
+  }
+  .contacts-menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 306px;
+  }
+  .contacts-menu-phone {
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: var(--hover-color);
+  }
+  .contacts-menu-mail {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .social-media-menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-top: 64px;
+  }
+  .social-media-menu svg {
+    width: 22px;
+    height: 22px;
+  }
+  .social-media-menu a {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--hover-color);
+  }
   .title-main-ct {
     background-image: url(../images/background-small.jpg);
     background-size: cover;
