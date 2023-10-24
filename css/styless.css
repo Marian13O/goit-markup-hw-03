@@ -1128,6 +1128,19 @@ textarea {
     width: 20px;
     height: 20px;
   }
+  .modal {
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    width: 90vw;
+  }
+  .modal-content {
+    width: 85vw;
+    height: 85vw;
+    margin: 10px;
+    margin-right: 10px;
+  }
 }
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1157px) {
