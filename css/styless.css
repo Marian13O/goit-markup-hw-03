@@ -1237,6 +1237,7 @@ textarea {
     flex-direction: row;
     box-sizing: content-box;
     flex-basis: calc((100% - 170px) / 3);
+    justify-content: center;
   }
 
   .footer {
@@ -1349,6 +1350,13 @@ textarea {
   }
   .aboutus-tab ul {
     display: none;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .title-main {
+    background-image: url(../images/background-x2.jpg);
   }
 }
 /* mobile max 480px */
