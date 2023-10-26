@@ -1100,7 +1100,6 @@ textarea {
     height: 167px;
   }
   .subscribe-button {
-    margin-left: 85px;
     margin-top: 15px;
   }
   .btn-subscribe {
@@ -1141,10 +1140,202 @@ textarea {
     margin: 10px;
     margin-right: 10px;
   }
+  .aboutus-tab ul {
+    display: none;
+  }
 }
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (max-width: 1157px) {
+  html,
+  body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .footer {
+    display: none;
+  }
+  .js-menu-container {
+    display: none;
+  }
+  .js-open-menu {
+    display: none;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutus ul {
+    display: none;
+  }
+  .what-we-do {
+    display: none;
+  }
+  .aboutus-tab {
+    width: 100%;
+    display: block;
+  }
+  .aboutus-tab ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    flex-basis: calc((100% - 170px) / 2);
+  }
+  .aboutus-tab li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 170px) / 2);
+    margin-left: 30px;
+  }
+  .icons {
+    width: 100%;
+  }
+
+  .our-team {
+    width: 100%;
+    display: block;
+  }
+  .our-team ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    flex-basis: calc((100% - 170px) / 2);
+  }
+  .our-team li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 170px) / 2);
+    margin-left: 30px;
+  }
+  .our-team li img {
+    width: 100%;
+  }
+  .clients-logo {
+    width: 100%;
+    display: block;
+    padding-right: 30px;
+  }
+  .clients-logo ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    flex-basis: calc((100% - 170px) / 3);
+  }
+  .clients-logo li {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    flex-basis: calc((100% - 170px) / 3);
+  }
+
+  .footer {
+    display: none;
+  }
+  .footer-mobile {
+    background-color: var(--element-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    gap: 116px;
+    padding: 60px;
+  }
+  .footer-logo-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .footer-logo-mobile a {
+    font-style: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 218%;
+    letter-spacing: 3%;
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer-logo-mobile address a {
+    text-decoration: none;
+    display: flex;
+    color: #757575;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-logo-mobile li span {
+    color: #ffffff;
+  }
+  .social-mobile ul {
+    width: 206;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+  }
+  .social-mobile h2 {
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .footer-section5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+    height: 167px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe-text {
+    padding-bottom: 15px;
+  }
+  .input-email-footer input {
+    width: 450px;
+    height: 50px;
+    background-color: var(--element-color);
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: var(--text-color);
+  }
+  .btn-subscribe {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: var(--hover-color);
+    color: #fff;
+    border: none;
+    padding-left: 43px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+  }
+  .subscribe-button {
+    margin-top: 15px;
+  }
+  .subscribe-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
+
 /* DESkTOP */
 @media screen and (min-width: 1157px) {
   .menu-button {
@@ -1154,6 +1345,9 @@ textarea {
     display: none;
   }
   .footer-mobile {
+    display: none;
+  }
+  .aboutus-tab ul {
     display: none;
   }
 }
@@ -1167,6 +1361,9 @@ textarea {
     width: 90vw;
     margin-right: 15px;
   }
+  .aboutus-tab ul {
+    display: none;
+  }
   .clients-logo li {
     width: 35vw;
   }
@@ -1176,5 +1373,9 @@ textarea {
   }
   .our-team ul {
     height: 1800px;
+    justify-content: center;
+  }
+  .footer-main {
+    height: 2100px;
   }
 }
