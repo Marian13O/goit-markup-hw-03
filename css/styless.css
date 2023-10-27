@@ -1025,6 +1025,15 @@ textarea {
     gap: 35px;
   }
   .clients-logo li {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    flex-basis: calc((100% - 170px) / 3);
+    justify-content: center;
+  }
+  .clients-logo li {
     width: 220px;
   }
   .company-resize {
@@ -1251,7 +1260,6 @@ textarea {
     row-gap: 60px;
     flex-wrap: wrap;
     gap: 116px;
-    padding: 60px;
   }
   .footer-logo-mobile {
     display: flex;
